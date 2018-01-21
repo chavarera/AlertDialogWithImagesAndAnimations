@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.protutr.alertdialogwithimagesandanimations.MainActivity">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/normal_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Normal Alert Dialog"/>
+        <Button
+            android:layout_below="@id/normal_dialog"
+            android:id="@+id/show_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Alert Dialog Box With Image"/>
+
+        <Button
+            android:layout_below="@id/normal_dialog"
+            android:id="@+id/lefttoright"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Left To Right Animation"/>
+        <Button
+            android:layout_below="@id/normal_dialog"
+            android:id="@+id/uptobottom"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Up To Bottom Animation"/>
+        <Button
+            android:layout_below="@id/normal_dialog"
+            android:id="@+id/fadeinout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Fade In Fade Out Animation"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="For more tutorial visit http://protutr.com"/>
+    </LinearLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/playstore"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Download Our App From Playstore"/>
+</RelativeLayout>
